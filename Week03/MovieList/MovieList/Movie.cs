@@ -10,14 +10,30 @@ namespace MovieList
     public class Movie
     {
         public string Title;
+        public string Director;
+        public string Genre;
+        public int Length;
         public int ReleaseYear;
         
 
-        public Movie(string title, int releaseYear)
+        public Movie(string title, int releaseYear, string director, string genre, int length)
         {
             Title = title;
             ReleaseYear = releaseYear;
+            Length = length;
+                Genre = genre;
+            Director = director;
 }
+
+        public Movie(string title, int releaseYear, int length, string director, string genre)
+        {
+            Title = title;
+            ReleaseYear = releaseYear;
+            Length = length;
+            Director = director;
+            Genre = genre;
+        }
+
         public void ShowDetails()
         {
 

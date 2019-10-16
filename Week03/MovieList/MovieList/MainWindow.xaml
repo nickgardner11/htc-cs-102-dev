@@ -7,10 +7,31 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0*"/>
-            <ColumnDefinition Width="126*"/>
-            <ColumnDefinition Width="391*"/>
-        </Grid.ColumnDefinitions>
-    </Grid>
-</Window>
+        <StackPanel Margin="10">
+
+            <TextBlock HorizontalAlignment="Center">Title</TextBlock>
+            <TextBox Name="titleInput" Margin="0,0,0,15"></TextBox>
+            
+            
+            <TextBlock HorizontalAlignment="Center">Release Year</TextBlock>
+            <TextBox Name="releaseYearInput" Margin="0,0,0,15"></TextBox>
+
+            <TextBlock HorizontalAlignment="Center">Director</TextBlock>
+            <TextBox Name="directorrInput" Margin="0,0,0,15"></TextBox>
+
+            <TextBlock HorizontalAlignment="Center"> Length</TextBlock>
+            <TextBox Name="lengthInput" Margin="0,0,0,15"></TextBox>
+
+            <TextBlock HorizontalAlignment="Center">Genre</TextBlock>
+            <TextBox Name="genreInput" Margin="0,0,0,15"></TextBox>
+
+
+
+            <Button Height="30" Width="75" Margin="211,15" Click="AddButton_Click">Add Movie</Button>
+
+            <Button Height="30" Width="100" Margin="211,15" Click="ShowButton_Click">Show All Movies</Button>
+
+                
+        </StackPanel>
+       </Grid>
+    </Window>

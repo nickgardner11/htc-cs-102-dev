@@ -20,9 +20,34 @@ namespace MovieList
     /// </summary>
     public partial class MainWindow : Window
     {
+        List<Movie> Movies = new List<Movie>();
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void ShowButton_Click(object sender, RoutedEventArgs e)
+        {
+            foreach (Movie movie in Movies) {
+                MessageBox.Show("The movie " + movie.Title + " was released in " + movie.ReleaseYear + "." + "\r\n" + movie.Title + "'s runtime is " + movie.Length + " hours and was directed by " + movie.Director + "." + "This movie is part of the " + movie.Genre + " genre" );
+                    
+                    
+                    }
+
+        }
+
+            private void AddButton_Click(object sender, RoutedEventArgs e)
+        {
+            int releaseYear = Convert.ToInt32 (releaseYearInput.Text);
+            string length = lengthInput.Text;
+            string title = titleInput.Text;
+            string director = directorrInput.Text;
+            string genre = genreInput.Text;
+
+
+            Movie movie = new Movie( title, releaseYear, length, director, genre);
+            Movies.Add(movie);
+            MessageBox.Show("Movie Added");
         }
     }
 }
