@@ -7,31 +7,29 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <StackPanel Margin="10">
+        <StackPanel Margin="-549,47,569,-27">
 
             <TextBlock HorizontalAlignment="Center">Title</TextBlock>
-            <TextBox Name="titleInput" Margin="0,0,0,15"></TextBox>
-            
-            
+
+
             <TextBlock HorizontalAlignment="Center">Release Year</TextBlock>
-            <TextBox Name="releaseYearInput" Margin="0,0,0,15"></TextBox>
+            <TextBox x:Name="titleInput" Margin="0,0,0,15"/>
+            <TextBox Name="releaseYearInput" Margin="352,0,0,15"></TextBox>
 
             <TextBlock HorizontalAlignment="Center">Director</TextBlock>
-            <TextBox Name="directorrInput" Margin="0,0,0,15"></TextBox>
+            <TextBox Name="directorrInput" Margin="405,0,0,15"></TextBox>
 
             <TextBlock HorizontalAlignment="Center"> Length</TextBlock>
-            <TextBox Name="lengthInput" Margin="0,0,0,15"></TextBox>
-
-            <TextBlock HorizontalAlignment="Center">Genre</TextBlock>
-            <TextBox Name="genreInput" Margin="0,0,0,15"></TextBox>
-
-
-
-            <Button Height="30" Width="75" Margin="211,15" Click="AddButton_Click">Add Movie</Button>
+            <TextBox Name="lengthInput" Margin="0,0,465,15"></TextBox>
+            <TextBlock HorizontalAlignment="Center" Margin="233,0,232,0"><Run Text="Genre"/></TextBlock>
+            <TextBox Name="genreInput" Margin="0,0,390,15"></TextBox>
+            <Button Height="30" Width="75" Margin="211,15" Click="AddButton_Click" Content="Add Movie"/>
 
             <Button Height="30" Width="100" Margin="211,15" Click="ShowButton_Click">Show All Movies</Button>
 
-                
+
+
         </StackPanel>
-       </Grid>
-    </Window>
+        <Image Source="epilog-logo-2019-2x.png" x:Name="image" HorizontalAlignment="Left" Height="96" Margin="10,10,0,0" VerticalAlignment="Top" Width="198"/>
+    </Grid>
+</Window>

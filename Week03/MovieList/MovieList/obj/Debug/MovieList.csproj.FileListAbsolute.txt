@@ -1,0 +1,14 @@
+C:\Users\User1\Desktop\Visual Studio\Week03\MovieList\MovieList\bin\Debug\MovieList.exe.config
+C:\Users\User1\Desktop\Visual Studio\Week03\MovieList\MovieList\obj\Debug\MovieList.csprojResolveAssemblyReference.cache
+C:\Users\User1\Desktop\Visual Studio\Week03\MovieList\MovieList\obj\Debug\App.g.cs
+C:\Users\User1\Desktop\Visual Studio\Week03\MovieList\MovieList\obj\Debug\MovieList_MarkupCompile.cache
+C:\Users\User1\Desktop\Visual Studio\Week03\MovieList\MovieList\bin\Debug\MovieList.exe
+C:\Users\User1\Desktop\Visual Studio\Week03\MovieList\MovieList\bin\Debug\MovieList.pdb
+C:\Users\User1\Desktop\Visual Studio\Week03\MovieList\MovieList\obj\Debug\MainWindow.g.cs
+C:\Users\User1\Desktop\Visual Studio\Week03\MovieList\MovieList\obj\Debug\MovieList_MarkupCompile.lref
+C:\Users\User1\Desktop\Visual Studio\Week03\MovieList\MovieList\obj\Debug\MainWindow.baml
+C:\Users\User1\Desktop\Visual Studio\Week03\MovieList\MovieList\obj\Debug\MovieList.g.resources
+C:\Users\User1\Desktop\Visual Studio\Week03\MovieList\MovieList\obj\Debug\MovieList.Properties.Resources.resources
+C:\Users\User1\Desktop\Visual Studio\Week03\MovieList\MovieList\obj\Debug\MovieList.csproj.GenerateResource.Cache
+C:\Users\User1\Desktop\Visual Studio\Week03\MovieList\MovieList\obj\Debug\MovieList.exe
+C:\Users\User1\Desktop\Visual Studio\Week03\MovieList\MovieList\obj\Debug\MovieList.pdb
