@@ -16,10 +16,8 @@
 
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="169,76,0,0" TextWrapping="Wrap" Text="Select Your Material " VerticalAlignment="Top" FontFamily="Ebrima" FontSize="24" FontWeight="Bold" Foreground="#FF1A4899"/>
 
-        <RadioButton x:Name="woodbtn" Content="Wood" HorizontalAlignment="Left" Height="52" Margin="166,117,0,0" VerticalAlignment="Top" Width="127" Checked="radioButton_Checked" FontWeight="Bold" Foreground="#FF1A4899"/>
-        <RadioButton x:Name="acrylicbtn" Content="Acrylic " HorizontalAlignment="Left" Margin="228,117,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FF1A4899" Checked="radioButton1_Checked"/>
-        <RadioButton x:Name="glassbtn" Content="Glass" HorizontalAlignment="Left" Margin="293,117,0,0" VerticalAlignment="Top" Checked="radioButton2_Checked" Foreground="#FF1A4899" FontWeight="Bold"/>
-        <RadioButton x:Name="metalbtn" Content="Metal&#xD;&#xA;&#xD;&#xA;" HorizontalAlignment="Left" Margin="353,117,0,0" VerticalAlignment="Top" Foreground="#FF1A4899" FontWeight="Bold" Checked="radioButton3_Checked"/>
+        <RadioButton x:Name="woodbtn" Content="Wood" HorizontalAlignment="Left" Height="52" Margin="217,117,0,0" VerticalAlignment="Top" Width="127" Checked="radioButton_Checked" FontWeight="Bold" Foreground="#FF1A4899"/>
+        <RadioButton x:Name="acrylicbtn" Content="Acrylic " HorizontalAlignment="Left" Margin="293,117,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FF1A4899" Checked="radioButton1_Checked"/>
 
         <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="154,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Ebrima" FontSize="24" FontWeight="Bold" Foreground="#FF1A4899" Height="40"><Run Text="Select Your Process(es)"/><LineBreak/></TextBlock>
         <Grid>
